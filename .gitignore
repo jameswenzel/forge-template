@@ -9,3 +9,13 @@ out/
 
 # Dotenv file
 .env
+
+# ignore all files starting with . by default
+.*
+
+# ignore broadcast directory
+broadcast/
+
+# ignore lcov 
+lcov.info
+html/
